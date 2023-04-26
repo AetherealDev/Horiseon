@@ -1,13 +1,18 @@
-* { 
+
+/* Global Styling*/
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+
 body {
-    background-color: #d9dcd6;
+    background-color: #d9dcd6; /* Set the backround color for our body to white */
 }
 
+
+/* ================ Header Styling ==============*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,15 +46,18 @@ body {
     margin-left: 25px;
 }
 
+/* Anchor Tag Styling*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* Paragraph Styling*/
 p {
     font-size: 16px;
 }
 
+
+/* Hero Section Styling*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,6 +67,7 @@ p {
     background-position: center;
 }
 
+/* Styling for out flaot-left float-right properties */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,11 +78,14 @@ p {
     margin-left: 25px;
 }
 
+/* Styling for out main content fields*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
+/* ================ Benefits Styling ==============*/
 
 .benefits {
     margin-right: 20px;
@@ -133,26 +145,8 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+ /* Styling for the SEO section*/
 .search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -165,17 +159,23 @@ p {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
+}
+
+ /* Styling for the ORM section*/
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
 }
 
 .online-reputation-management h2 {
@@ -183,15 +183,30 @@ p {
     font-size: 36px;
 }
 
+ /* Styling for the SMM section*/
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Footer Styling */
 .footer {
     padding: 30px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
     text-align: center;
 }
 
